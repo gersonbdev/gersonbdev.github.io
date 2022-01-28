@@ -2,6 +2,31 @@
 <p class="subtitle">{{site.contact_description}}</p>
 
 <div class="contact-icons">
+  <div id="donate-button-container">
+    <div id="donate-button"></div>
+    <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+    <script>
+    PayPal.Donation.Button({
+    env:'production',
+    hosted_button_id:'YZU4CXZEREHRQ',
+    image: {
+    src:'https://www.paypal.com/es_ES/i/btn/btn_donate_LG.gif',
+    alt:'Donar con el botón de PayPal',
+    title:'PayPal - ¡La forma más segura y fácil de pagar en línea!',
+    }
+    }).render('#donate-button');
+    </script>
+  </div>
+
+  &nbsp
+  &nbsp
+  &nbsp
+
+  <script src="https://liberapay.com/gersonbenavides/widgets/button.js"></script>
+
+</div>
+
+<div class="contact-icons">
   {% if site.email != null %}
   <a class="social-link" aria-label="My E-Mail" href="mailto:{{site.email}}">
     <div class="social">

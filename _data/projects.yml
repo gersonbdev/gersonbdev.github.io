@@ -13,21 +13,23 @@
 #     - tag: AngularJS
 #     - tag: Node
 
-- name: project X
-  descr: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
-  demo: https://example.com/
+- name: Gerson's blog
+  descr: "Un blog personal donde publico noticias, tutoriales y artículos de opinión. En general la temática gira en torno al software y algunos desarrollos electrónicos."
+  demo: https://gersonbdev.github.io/blog/
   tags:
-    - tag: MongoDB
-    - tag: Express
-    - tag: AngularJS
-    - tag: Node
+    - tag: Blog
+    - tag: Jekyll
 
-- name: project Y
-  descr: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
-  demo: https://example.com/
+- name: La plataforma de desarrollo GLib/GTK
+  descr: "Texto guía para dar comienzo con la plataforma de desarrollo GLib/GTK, haciendo uso del lenguaje C. El libro nace en 2016 como un proyecto personal de Sébastien Wilmetn, el cual desarrolla hasta el año 2019. A partir del año 2021 continuo su desarrollo."
+  demo: https://gersonbdev.github.io/glib-gtk-libro/
   tags:
-    - tag: Python
-    - tag: Django
+    - tag: GLib
+    - tag: GTK
+    - tag: mdBook
 
-- name: project Z
-  descr: "You can also set a project without demo link and no tags"
+- name: Wikipedia
+  descr: "Contribución en el desarrollo de artículos enciclopédicos."
+  demo: https://es.wikipedia.org/wiki/Usuario:GersonBenavides
+  tags:
+    - tag: Documentacion
